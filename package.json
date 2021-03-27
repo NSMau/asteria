@@ -1,0 +1,49 @@
+{
+  "name": "asteria",
+  "displayName": "Asteria",
+  "description": "A balanced VS Code Theme",
+  "icon": "asteria-logo.png",
+  "version": "1.0.0-alpha",
+  "author": {
+    "name": "Mauricio Paternina",
+    "url": "https://spaceinva.dev",
+    "email": "hello@spaceinva.dev"
+  },
+  "publisher": "spaceinvadev",
+  "galleryBanner": {
+    "color": "#0e1011",
+    "theme": "dark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spaceinvadev/asteria"
+  },
+  "bugs": {
+    "url": "https://github.com/spaceinvadev/asteria/issues"
+  },
+  "engines": {
+    "vscode": "^1.52.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "Theme",
+    "Themes",
+    "Dark",
+    "Minimal",
+    "Minimalist",
+    "Pastel",
+    "Soft",
+    "Italic"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Asteria",
+        "uiTheme": "vs-dark",
+        "path": "./themes/asteria-color-theme.json"
+      }
+    ]
+  }
+}
