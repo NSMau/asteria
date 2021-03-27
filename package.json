@@ -2,7 +2,7 @@
   "name": "asteria",
   "displayName": "Asteria",
   "description": "A balanced VS Code Theme",
-  "icon": "asteria-logo.png",
+  "icon": "/images/asteria-logo.png",
   "version": "0.0.1",
   "author": {
     "name": "Mauricio Paternina",
