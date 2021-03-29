@@ -16,7 +16,7 @@
     "editor.wordHighlightStrongBackground": "#212525",
 
     "editor.hoverHighlightBackground": "#00000088",
-    "editor.lineHighlightBackground": "#090a0a",
+    "editor.lineHighlightBackground": "#141616",
     "editor.selectionHighlightBackground": "#212525",
     "editor.selectionForeground": "#36492a",
     "editor.selectionBackground": "#7b7b7b24",
@@ -41,7 +41,7 @@
     "editor.findMatchHighlightBackground": "#251a3b",
     "editor.findMatchHighlightBorder": "#2d2049",
 
-    "editorCursor.foreground": "#eaff2f",
+    "editorCursor.foreground": "#def12d",
     "editorLineNumber.foreground": "#7b7b7b",
     "editorLineNumber.activeForeground": "#dbcfcf",
 
@@ -56,7 +56,7 @@
 
     // Editor Errors
     "editorError.background": "#f51c1c",
-    "editorError.foreground": "#2d0202",
+    "editorError.foreground": "#fefefe",
 
     // Editor Indentation Guides ✔
     "editorIndentGuide.background": "#181a1b",
@@ -570,6 +570,18 @@
       "settings": {
         "foreground": "#363b3b",
         "fontStyle": "bold italic"
+      }
+    },
+    {
+      "name": "Support Variable Properties",
+      "scope": [
+        "support.variable.property.js",
+        "support.variable.property.jsx",
+        "support.variable.property.ts",
+        "support.variable.property.tsx"
+      ],
+      "settings": {
+        "foreground": "#f4f4f4"
       }
     },
     {
@@ -1294,7 +1306,7 @@
       "settings": {
         "foreground": "#e0e0e080"
       }
-    }
+    },
     // {
     //   "name": "Markdown - Plain",
     //   "scope": [
@@ -1460,5 +1472,14 @@
     //     "foreground": "#EEFFFF"
     //   }
     // }
+
+    // YAML
+    {
+      "name": "YAML Plain Text",
+      "scope": "string.unquoted.plain.out.yaml",
+      "settings": {
+        "foreground": "#7b7b7b"
+      }
+    }
   ]
 }
