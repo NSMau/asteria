@@ -3,9 +3,17 @@
   "type": "dark",
   "semanticHighlighting": true,
   "colors": {
+    // Base Colors
     "editor.background": "#0e1011",
-    "editor.foreground": "#7b7b7b",
     "editor.foldBackground": "#18191a",
+    "editor.foreground": "#7b7b7b",
+    "foreground": "#7b7b7b",
+    "sash.hoverBorder": "#c5c5c5",
+    "widget.shadow": "#7b7b7b08",
+
+    // Window border
+    "window.activeBorder": "#7b7b7b24",
+    "window.inactiveBorder": "#0e101196",
 
     // Editor Symbol Highlight ✔
     "editor.symbolHighlightBackground": "#251a3b",
@@ -15,8 +23,8 @@
     "editor.wordHighlightBackground": "#000000",
     "editor.wordHighlightStrongBackground": "#212525",
 
-    "editor.hoverHighlightBackground": "#00000088",
-    "editor.lineHighlightBackground": "#141616",
+    "editor.hoverHighlightBackground": "#585454",
+    "editor.lineHighlightBackground": "#7b7b7b24",
     "editor.selectionHighlightBackground": "#212525",
     "editor.selectionForeground": "#36492a",
     "editor.selectionBackground": "#7b7b7b24",
@@ -41,7 +49,7 @@
     "editor.findMatchHighlightBackground": "#251a3b",
     "editor.findMatchHighlightBorder": "#2d2049",
 
-    "editorCursor.foreground": "#def12d",
+    "editorCursor.foreground": "#61f8ec",
     "editorLineNumber.foreground": "#7b7b7b",
     "editorLineNumber.activeForeground": "#dbcfcf",
 
@@ -55,8 +63,9 @@
     "editorBracketMatch.border": "#7029f3",
 
     // Editor Errors
-    "editorError.background": "#f51c1c",
-    "editorError.foreground": "#fefefe",
+    "editorError.background": "#0e1011",
+    "editorError.foreground": "#7b7b7b",
+    "editorError.border": "#ff2e2e",
 
     // Editor Indentation Guides ✔
     "editorIndentGuide.background": "#181a1b",
@@ -106,18 +115,15 @@
     "menu.background": "#0e1011",
     "menu.border": "#7b7b7b24",
     "menu.foreground": "#7b7b7b",
-    "menu.selectionBackground": "#090a0a",
+    "menu.selectionBackground": "#7b7b7b24",
     "menu.selectionForeground": "#f1f1f1",
     "menu.separatorBackground": "#cecece24",
-    "menubar.selectionBackground": "#0a0c0c",
+    "menubar.selectionBackground": "#7b7b7b24",
     "menubar.selectionForeground": "#a8a7a6",
-
-    // Sash ✔
-    "sash.hoverBorder": "#484848",
 
     "terminal.background": "#0e1011",
     "terminal.foreground": "#7b7b7b",
-    "terminalCursor.foreground": "#5d5f9a",
+    "terminalCursor.foreground": "#61f8ec",
     "terminal.selectionBackground": "#cecece24",
 
     "scrollbarSlider.background": "#353439",
