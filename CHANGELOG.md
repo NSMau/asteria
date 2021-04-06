@@ -8,6 +8,8 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ### Changes
 
+- Make terminal base colors consistent with theme's color palette (fixes #2)
+
 - Add styles to differentiate current tab (fixes #1)
 
 - Add colors for Dropdown control, Minimap, Badge, and Scrollbar control

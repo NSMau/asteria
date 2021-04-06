@@ -159,6 +159,14 @@
     "terminal.foreground": "#c7c7c7",
     "terminal.selectionBackground": "#cecece24",
     "terminalCursor.foreground": "#61f8ec88",
+    "terminal.ansiBlack": "#0e1011",
+    "terminal.ansiBlue": "#6bb3ee",
+    "terminal.ansiCyan": "#8cebe3",
+    "terminal.ansiGreen": "#65d39c",
+    "terminal.ansiMagenta": "#f898d3",
+    "terminal.ansiRed": "#ff8e8e",
+    "terminal.ansiWhite": "#f8f8f8",
+    "terminal.ansiYellow": "#d39165",
 
     // Breadcrumbs colors ✔
     "breadcrumb.background": "#0e1011",
