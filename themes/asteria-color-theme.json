@@ -11,7 +11,7 @@
     "sash.hoverBorder": "#c5c5c5",
     "widget.shadow": "#7b7b7b08",
 
-    // Window border
+    // Window border ✔
     "window.activeBorder": "#7b7b7b24",
     "window.inactiveBorder": "#0e101196",
 
@@ -23,18 +23,18 @@
     "editor.wordHighlightBackground": "#000000",
     "editor.wordHighlightStrongBackground": "#212525",
 
-    "editor.hoverHighlightBackground": "#585454",
+    // Editor Colors
+    "editor.selectionBackground": "#505364",
+    "editor.selectionForeground": "#161616",
+    "editor.selectionHighlightBorder": "#fff",
+    "editor.selectionHighlightBackground": "#0e1011",
+    "editor.hoverHighlightBackground": "#464646",
     "editor.lineHighlightBackground": "#7b7b7b24",
-    "editor.selectionHighlightBackground": "#212525",
-    "editor.selectionForeground": "#36492a",
-    "editor.selectionBackground": "#7b7b7b24",
 
     // Editor Hover Widget ✔
     "editorHoverWidget.background": "#090a0a",
     "editorHoverWidget.border": "#131414",
     "editorHoverWidget.foreground": "#6e7b7b",
-
-    "editorGroupHeader.tabsBackground": "#0e1011",
 
     // Gutter ✔
     "editorGutter.background": "#0e1011",
@@ -78,12 +78,15 @@
     "titleBar.inactiveForeground": "#7b7b7b80",
     "titleBar.border": "#0e1011",
 
-    // Tabs ✔
-    "tab.activeBackground": "#0e1011",
+    // Editor Groups & Tabs ✔
+    // "editorGroup.border": "",
+    "tab.activeBackground": "#7b7b7b24",
+    "editorGroupHeader.tabsBackground": "#0e1011",
     "tab.activeForeground": "#d3d2d2",
     "tab.border": "#0e1011",
-    "tab.hoverBackground": "#090a0a",
-    "tab.hoverForeground": "#6e7b7b",
+    "tab.activeBorderTop": "#7b7b7b80",
+    "tab.hoverBackground": "#7b7b7b40",
+    "tab.hoverForeground": "#d3d2d2",
     "tab.inactiveBackground": "#0e1011",
     "tab.inactiveForeground": "#d3d2d264",
 
@@ -121,19 +124,48 @@
     "menubar.selectionBackground": "#7b7b7b24",
     "menubar.selectionForeground": "#a8a7a6",
 
-    "terminal.background": "#0e1011",
-    "terminal.foreground": "#7b7b7b",
-    "terminalCursor.foreground": "#61f8ec",
-    "terminal.selectionBackground": "#cecece24",
+    // Dropdown control ✔
+    "dropdown.background": "#0e1011",
+    "dropdown.border": "#7b7b7b64",
+    "dropdown.foreground": "#7b7b7b",
+    "dropdown.listBackground": "#0e1011",
 
-    "scrollbarSlider.background": "#353439",
-    "scrollbarSlider.hoverBackground": "#3a393d",
-    "scrollbarSlider.activeBackground": "#3e3d41",
-    "breadcrumb.background": "#0e1011",
-    "breadcrumb.foreground": "#7b7b7b",
-    "breadcrumbPicker.background": "#0e0f10",
+    // Minimap
+    "minimap.background": "#0e1011",
+    "minimap.selectionHighlight": "#ffbfbf",
+    "minimap.findMatchHighlight": "#65d39c",
+    "minimap.warningHighlight": "#d39165",
+    "minimap.errorHighlight": "#f35858",
+    "minimapSlider.background": "#ffffff16",
+    "minimapSlider.hoverBackground": "#ffffff32",
+    "minimapSlider.activeBackground": "#ffffff48",
+    "minimapGutter.addedBackground": "#65d39c",
+    "minimapGutter.modifiedBackground": "#d39165",
+    "minimapGutter.deletedBackground": "#f35858",
+
+    // Badge ✔
+    "badge.foreground": "#7f7f7f",
+    "badge.background": "#161616",
+
+    // Scrollbar Control ✔
     "scrollbar.shadow": "#cecece03",
-    "minimap.errorHighlight": "#f35858"
+    "scrollbarSlider.activeBackground": "#484848",
+    "scrollbarSlider.background": "#323232",
+    "scrollbarSlider.hoverBackground": "#3a393d",
+
+    // Integrated Terminal Colors - TODO: Add ansiBright Colors
+    "terminal.background": "#0e1011",
+    "terminal.border": "#7b7b7b",
+    "terminal.foreground": "#c7c7c7",
+    "terminal.selectionBackground": "#cecece24",
+    "terminalCursor.foreground": "#61f8ec88",
+
+    // Breadcrumbs colors ✔
+    "breadcrumb.background": "#0e1011",
+    "breadcrumb.foreground": "#eec0c0",
+    "breadcrumb.focusForeground": "#d3d2d2",
+    "breadcrumb.activeSelectionForeground": "#ebebeb",
+    "breadcrumbPicker.background": "#0e0f10"
   },
   "tokenColors": [
     {
@@ -361,8 +393,7 @@
       "name": "CSS Property Names",
       "scope": "support.type.property-name.css",
       "settings": {
-        "foreground": "#363B3B",
-        "fontStyle": "bold italic"
+        "foreground": "#ffffff80"
       }
     },
     {
@@ -564,10 +595,12 @@
     {
       "name": "Variables Keywords",
       "scope": [
+        "storage.type",
         "storage.type.js",
         "storage.type.jsx",
         "storage.type.ts",
         "storage.type.tsx",
+        "storage.type.function",
         "storage.type.function.js",
         "storage.type.function.jsx",
         "storage.type.function.ts",
@@ -784,10 +817,12 @@
     {
       "name": "Function Name, Function Call",
       "scope": [
+        "entity.name.function",
         "entity.name.function.js",
         "entity.name.function.jsx",
         "entity.name.function.ts",
         "entity.name.function.tsx",
+        "meta.function-call",
         "meta.function-call.js",
         "meta.function-call.jsx",
         "meta.function-call.ts",

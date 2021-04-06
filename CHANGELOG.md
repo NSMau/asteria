@@ -8,6 +8,10 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ### Changes
 
+- Add styles to differentiate current tab (fixes #1)
+
+- Add colors for Dropdown control, Minimap, Badge, and Scrollbar control
+
 - Update `editorError` styles
 
 - Lighten `menu.selectionBackground` and `menubar.selectionBackground` colors
