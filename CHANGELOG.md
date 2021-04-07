@@ -1,12 +1,12 @@
 # Change Log
 
-All notable changes to the "asteria" extension will be documented in this file.
-
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+This document outlines all notable changes to the "Asteria" theme.
 
 ## [Unreleased]
 
 ### Changes
+
+- Update styles of Editor Groups & Tabs
 
 - Make terminal base colors consistent with theme's color palette (fixes #2)
 

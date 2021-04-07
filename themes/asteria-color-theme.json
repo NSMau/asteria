@@ -80,15 +80,15 @@
 
     // Editor Groups & Tabs ✔
     // "editorGroup.border": "",
-    "tab.activeBackground": "#7b7b7b24",
+    "tab.activeBackground": "#0e1011",
     "editorGroupHeader.tabsBackground": "#0e1011",
     "tab.activeForeground": "#d3d2d2",
-    "tab.border": "#0e1011",
-    "tab.activeBorderTop": "#7b7b7b80",
+    "tab.border": "#0e101164",
+    "tab.activeBorderTop": "#aaaaaa",
     "tab.hoverBackground": "#7b7b7b40",
     "tab.hoverForeground": "#d3d2d2",
-    "tab.inactiveBackground": "#0e1011",
-    "tab.inactiveForeground": "#d3d2d264",
+    "tab.inactiveBackground": "#7b7b7b16",
+    "tab.inactiveForeground": "#d3d2d272",
 
     // Activity Bar ✔
     "activityBar.activeBackground": "#0e1011",
