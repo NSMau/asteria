@@ -192,7 +192,7 @@
       ],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#353333" // 10683c 10683c67
+        "foreground": "#10683c" // 10683c 10683c67
       }
     },
     // HTML
@@ -303,7 +303,7 @@
         "comment.line.sass"
       ],
       "settings": {
-        "foreground": "#353333",
+        "foreground": "#10683c",
         "fontStyle": "italic"
       }
     },

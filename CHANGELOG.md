@@ -6,6 +6,8 @@ This document outlines all notable changes to the "Asteria" theme.
 
 ### Changes
 
+- Change comments' color for better readability
+
 - Add styles for Markdown files
 
 - Update styles of Editor Groups & Tabs
