@@ -6,6 +6,8 @@ This document outlines all notable changes to the "Asteria" theme.
 
 ### Changes
 
+- Add styles for Markdown files
+
 - Update styles of Editor Groups & Tabs
 
 - Make terminal base colors consistent with theme's color palette (fixes #2)
@@ -25,7 +27,5 @@ This document outlines all notable changes to the "Asteria" theme.
 - Update color of `editor.hoverHighlightBackground` and `editor.lineHighlightBackground`
 
 - Add colors for `window.activeBorder` and `window.inactiveBorder`
-
-- Update README
 
 - Initial release
