@@ -692,7 +692,11 @@
         "keyword.operator.expression.instanceof.js",
         "keyword.operator.expression.instanceof.jsx",
         "keyword.operator.expression.instanceof.ts",
-        "keyword.operator.expression.instanceof.tsx"
+        "keyword.operator.expression.instanceof.tsx",
+        "storage.type.function.js",
+        "storage.type.function.jsx",
+        "storage.type.function.ts",
+        "storage.type.function.tsx"
       ],
       "settings": {
         "foreground": "#356161",

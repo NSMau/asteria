@@ -4,6 +4,10 @@
 
 <small>APRIL 24, 2021</small>
 
+### What’s New
+
+- Add styles for JavaScript's `instanceof` keyword (fixes [#4](https://github.com/spaceinvadev/asteria/issues/4))
+
 ### What’s Fixed
 
 - Update Editor Symbol Highlight and Word Highlight (fixes [#3](https://github.com/spaceinvadev/asteria/issues/3))
