@@ -1,10 +1,22 @@
 # Change Log
 
-This document outlines all notable changes to the "Asteria" theme.
+## v0.1.3
+
+<small>APRIL 24, 2021</small>
+
+### What’s Fixed
+
+- Update Editor Symbol Highlight and Word Highlight (fixes [#3](https://github.com/spaceinvadev/asteria/issues/3))
+
+### What’s Changed
+
+- Update value of `editor.selectionBackground` for better readability
+
+<br>
 
 ## [Unreleased]
 
-### Changes
+### What's New
 
 - Change comments' color for better readability
 

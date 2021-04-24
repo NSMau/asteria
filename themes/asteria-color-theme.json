@@ -16,19 +16,19 @@
     "window.inactiveBorder": "#0e101196",
 
     // Editor Symbol Highlight ✔
-    "editor.symbolHighlightBackground": "#251a3b",
-    "editor.symbolHighlightBorder": "#2d2049",
+    "editor.symbolHighlightBackground": "#fff",
+    "editor.symbolHighlightBorder": "#000",
 
     // Editor Word Highlight ✔
-    "editor.wordHighlightBackground": "#000000",
-    "editor.wordHighlightStrongBackground": "#212525",
+    "editor.wordHighlightBackground": "#000",
+    "editor.wordHighlightStrongBackground": "#666",
 
     // Editor Colors
-    "editor.selectionBackground": "#505364",
-    "editor.selectionForeground": "#161616",
-    "editor.selectionHighlightBorder": "#fff",
-    "editor.selectionHighlightBackground": "#0e1011",
-    "editor.hoverHighlightBackground": "#464646",
+    "editor.selectionBackground": "#081c36",
+    // "editor.selectionForeground": "#000",
+    // "editor.selectionHighlightBorder": "#fff",
+    // "editor.selectionHighlightBackground": "#0e1011",
+    // "editor.hoverHighlightBackground": "#000",
     "editor.lineHighlightBackground": "#7b7b7b24",
 
     // Editor Hover Widget ✔
@@ -44,12 +44,12 @@
     "editorGutter.foldingControlForeground": "#6b6a6d",
 
     // Editor Find Matches ✔
-    "editor.findMatchBackground": "#251a3b",
-    "editor.findMatchBorder": "#2d2049",
-    "editor.findMatchHighlightBackground": "#251a3b",
-    "editor.findMatchHighlightBorder": "#2d2049",
+    "editor.findMatchBackground": "#666",
+    "editor.findMatchBorder": "#000",
+    "editor.findMatchHighlightBackground": "#000",
+    "editor.findMatchHighlightBorder": "#000",
 
-    "editorCursor.foreground": "#61f8ec",
+    "editorCursor.foreground": "#52faba", // 61f8ec
     "editorLineNumber.foreground": "#7b7b7b",
     "editorLineNumber.activeForeground": "#dbcfcf",
 
@@ -608,11 +608,7 @@
         "storage.type.jsx",
         "storage.type.ts",
         "storage.type.tsx",
-        "storage.type.function",
-        "storage.type.function.js",
-        "storage.type.function.jsx",
-        "storage.type.function.ts",
-        "storage.type.function.tsx"
+        "storage.type.function"
       ],
       "settings": {
         "foreground": "#363b3b",
@@ -692,7 +688,11 @@
         "keyword.control.switch.js",
         "keyword.control.switch.jsx",
         "keyword.control.switch.ts",
-        "keyword.control.switch.tsx"
+        "keyword.control.switch.tsx",
+        "keyword.operator.expression.instanceof.js",
+        "keyword.operator.expression.instanceof.jsx",
+        "keyword.operator.expression.instanceof.ts",
+        "keyword.operator.expression.instanceof.tsx"
       ],
       "settings": {
         "foreground": "#356161",
