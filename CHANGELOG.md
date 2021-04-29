@@ -1,5 +1,13 @@
 # Change Log
 
+## v0.2.0
+
+<small>APRIL 29, 2021</small>
+
+### What’s New
+
+- Add new theme variant: "No Italics"
+
 ## v0.1.3
 
 <small>APRIL 24, 2021</small>

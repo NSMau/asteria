@@ -3,13 +3,13 @@
   "displayName": "Asteria",
   "description": "A balanced VS Code Theme",
   "icon": "images/asteria-logo.png",
-  "version": "0.1.3",
+  "version": "0.2.0",
+  "publisher": "spaceinvadev",
   "author": {
     "name": "Mauricio Paternina",
     "url": "https://spaceinva.dev",
     "email": "hello@spaceinva.dev"
   },
-  "publisher": "spaceinvadev",
   "galleryBanner": {
     "color": "#0e1011",
     "theme": "dark"
@@ -43,6 +43,11 @@
         "label": "Asteria",
         "uiTheme": "vs-dark",
         "path": "./themes/asteria-color-theme.json"
+      },
+      {
+        "label": "Asteria (No Italics)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/asteria-color-theme-noitalics.json"
       }
     ]
   }
